@@ -14,9 +14,6 @@ var pool    =    mysql.createPool({
       debug             :   false
 });
 
-app.get("/",function(req,res){
-    res.sendFile(__dirname + '/index.html');
-});
 
 /*  This is auto initiated event when Client connects to Your Machien.  */
 
