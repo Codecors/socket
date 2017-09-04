@@ -7,10 +7,10 @@ var io      =     require("socket.io")(http);
 
 var pool    =    mysql.createPool({
       connectionLimit   :   100,
-      host              :   'localhost',
-      user              :   'root',
-      password          :   '',
-      database          :   'fbstatus',
+      host              :   '148.66.136.214',
+      user              :   'pupskee',
+      password          :   'SOW#J@8~xfiUEBK+IAL',
+      database          :   'pupskee',
       debug             :   false
 });
 
