@@ -11,7 +11,7 @@ var pool    =    mysql.createPool({
       user              :   'pupskee',
       password          :   'SOW#J@8~xfiUEBK+IAL',
       database          :   'pupskee',
-      debug             :   false
+      debug             :   true
 });
 
 
